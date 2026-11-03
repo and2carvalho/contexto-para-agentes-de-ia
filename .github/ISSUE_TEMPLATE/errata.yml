@@ -1,0 +1,39 @@
+name: Relato de Errata ou Correção
+description: Notifique um erro de digitação, fórmula, algoritmo ou referência no livro
+title: "[Errata]: "
+labels: ["errata"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por ajudar a aprimorar o livro **Contexto para Agentes de IA**.
+        Por favor, preencha as informações abaixo para facilitar a revisão da passagem.
+  - type: input
+    id: localizacao
+    attributes:
+      label: Localização
+      description: Informe o capítulo, seção ou página onde o erro foi encontrado.
+      placeholder: "Ex.: Capítulo 3, Seção 3.2, Definição 3.4 (página 58)"
+    validations:
+      required: true
+  - type: textarea
+    id: texto_atual
+    attributes:
+      label: Texto ou fórmula atual
+      description: Cole o trecho como aparece hoje no livro.
+    validations:
+      required: true
+  - type: textarea
+    id: texto_corrigido
+    attributes:
+      label: Correção sugerida
+      description: Apresente como o trecho deveria ficar.
+    validations:
+      required: true
+  - type: textarea
+    id: justificativa
+    attributes:
+      label: Justificativa / Contexto
+      description: Explique brevemente o motivo da correção (ex.: concordância, referência quebrada, inconsistência matemática).
+    validations:
+      required: false

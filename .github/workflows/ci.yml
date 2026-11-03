@@ -1,0 +1,54 @@
+name: Build and Verify Book
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Compile Book (Typst)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v3
+        with:
+          typst-version: '0.15.1'
+
+      - name: Build Book and Generated Indexes
+        run: |
+          chmod +x ./build.sh
+          ./build.sh
+
+      - name: Verify PDF Output
+        run: |
+          if [ ! -f "contexto-para-agentes-de-ia.pdf" ]; then
+            echo "Error: PDF output not generated!"
+            exit 1
+          fi
+          FILESIZE=$(wc -c < "contexto-para-agentes-de-ia.pdf")
+          echo "Generated PDF size: $FILESIZE bytes"
+          if [ "$FILESIZE" -lt 1000000 ]; then
+            echo "Error: PDF file suspiciously small ($FILESIZE bytes)"
+            exit 1
+          fi
+
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: contexto-para-agentes-de-ia-pdf
+          path: contexto-para-agentes-de-ia.pdf
+          retention-days: 14

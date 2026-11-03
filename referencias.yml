@@ -1,0 +1,3035 @@
+# =====================================================================
+#  Referências bibliográficas (formato Hayagriva) — estilo modelo/apa-livro.csl
+#  Convenção: artigos de conferência usam parent.type = periodical
+#  (título do evento/anais), para renderização limpa.
+# =====================================================================
+
+# ---------------------------------------------------------------------
+#  Memória, caching e sistemas
+# ---------------------------------------------------------------------
+denning1968:
+  type: article
+  title: The Working Set Model for Program Behavior
+  author: ["Denning, Peter J."]
+  date: 1968
+  page-range: 323-333
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    volume: 11
+    issue: 5
+
+denning1970:
+  type: article
+  title: Virtual Memory
+  author: ["Denning, Peter J."]
+  date: 1970
+  page-range: 153-189
+  parent:
+    type: periodical
+    title: ACM Computing Surveys
+    volume: 2
+    issue: 3
+
+denning2005:
+  type: article
+  title: The Locality Principle
+  author: ["Denning, Peter J."]
+  date: 2005
+  page-range: 19-24
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    volume: 48
+    issue: 7
+
+belady1966:
+  type: article
+  title: A Study of Replacement Algorithms for a Virtual-Storage Computer
+  author: ["Belady, Laszlo A."]
+  date: 1966
+  page-range: 78-101
+  parent:
+    type: periodical
+    title: IBM Systems Journal
+    volume: 5
+    issue: 2
+
+mattson1970:
+  type: article
+  title: Evaluation Techniques for Storage Hierarchies
+  author: ["Mattson, Richard L.", "Gecsei, Jan", "Slutz, Donald R.", "Traiger, Irving L."]
+  date: 1970
+  page-range: 78-117
+  parent:
+    type: periodical
+    title: IBM Systems Journal
+    volume: 9
+    issue: 2
+
+sleator1985:
+  type: article
+  title: Amortized Efficiency of List Update and Paging Rules
+  author: ["Sleator, Daniel D.", "Tarjan, Robert E."]
+  date: 1985
+  page-range: 202-208
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    volume: 28
+    issue: 2
+
+kwon2023:
+  type: article
+  title: Efficient Memory Management for Large Language Model Serving with PagedAttention
+  author: ["Kwon, Woosuk", "Li, Zhuohan", "Zhuang, Siyuan", "Sheng, Ying", "Zheng, Lianmin", "Yu, Cody Hao", "Gonzalez, Joseph E.", "Zhang, Hao", "Stoica, Ion"]
+  date: 2023
+  page-range: 611-626
+  parent:
+    type: periodical
+    title: Proceedings of the 29th ACM Symposium on Operating Systems Principles (SOSP)
+
+# ---------------------------------------------------------------------
+#  Sistemas distribuídos, consistência e reconciliação
+# ---------------------------------------------------------------------
+lamport1978:
+  type: article
+  title: Time, Clocks, and the Ordering of Events in a Distributed System
+  author: ["Lamport, Leslie"]
+  date: 1978
+  page-range: 558-565
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    volume: 21
+    issue: 7
+
+shapiro2011:
+  type: article
+  title: Conflict-Free Replicated Data Types
+  author: ["Shapiro, Marc", "Preguiça, Nuno", "Baquero, Carlos", "Zawirski, Marek"]
+  date: 2011
+  page-range: 386-400
+  parent:
+    type: periodical
+    title: "Stabilization, Safety, and Security of Distributed Systems (SSS 2011), Lecture Notes in Computer Science"
+    volume: 6976
+
+gilbert2002:
+  type: article
+  title: Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services
+  author: ["Gilbert, Seth", "Lynch, Nancy"]
+  date: 2002
+  page-range: 51-59
+  parent:
+    type: periodical
+    title: ACM SIGACT News
+    volume: 33
+    issue: 2
+
+vogels2009:
+  type: article
+  title: Eventually Consistent
+  author: ["Vogels, Werner"]
+  date: 2009
+  page-range: 40-44
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    volume: 52
+    issue: 1
+
+terry1994:
+  type: article
+  title: Session Guarantees for Weakly Consistent Replicated Data
+  author: ["Terry, Douglas B.", "Demers, Alan J.", "Petersen, Karin", "Spreitzer, Mike J.", "Theimer, Marvin M.", "Welch, Brent B."]
+  date: 1994
+  page-range: 140-149
+  parent:
+    type: periodical
+    title: Proceedings of the Third International Conference on Parallel and Distributed Information Systems (PDIS)
+
+helland2007:
+  type: article
+  title: "Life beyond Distributed Transactions: An Apostate's Opinion"
+  author: ["Helland, Pat"]
+  date: 2007
+  page-range: 132-141
+  parent:
+    type: periodical
+    title: Third Biennial Conference on Innovative Data Systems Research (CIDR)
+
+burns2016:
+  type: article
+  title: Borg, Omega, and Kubernetes
+  author: ["Burns, Brendan", "Grant, Brian", "Oppenheimer, David", "Brewer, Eric", "Wilkes, John"]
+  date: 2016
+  page-range: 50-57
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    volume: 59
+    issue: 5
+
+bergstra2014:
+  type: book
+  title: "Promise Theory: Principles and Applications"
+  author: ["Bergstra, Jan A.", "Burgess, Mark"]
+  date: 2014
+  publisher: XtAxis Press
+
+saltzer1978:
+  type: chapter
+  title: Naming and Binding of Objects
+  author: ["Saltzer, Jerome H."]
+  date: 1978
+  page-range: 99-208
+  parent:
+    type: book
+    title: "Operating Systems: An Advanced Course (Lecture Notes in Computer Science, vol. 60)"
+    editor: ["Bayer, Rudolf", "Graham, Robert M.", "Seegmüller, Gerhard"]
+    publisher: Springer
+
+rfc3986:
+  type: report
+  title: "Uniform Resource Identifier (URI): Generic Syntax"
+  author: ["Berners-Lee, Tim", "Fielding, Roy T.", "Masinter, Larry"]
+  date: 2005
+  serial-number: RFC 3986
+  publisher: Internet Engineering Task Force
+
+merkle1987:
+  type: article
+  title: A Digital Signature Based on a Conventional Encryption Function
+  author: ["Merkle, Ralph C."]
+  date: 1987
+  page-range: 369-378
+  parent:
+    type: periodical
+    title: "Advances in Cryptology — CRYPTO '87, Lecture Notes in Computer Science"
+    volume: 293
+
+chacon2014:
+  type: book
+  title: Pro Git
+  author: ["Chacon, Scott", "Straub, Ben"]
+  date: 2014
+  edition: 2
+  publisher: Apress
+
+torresarias2019:
+  type: article
+  title: "in-toto: Providing Farm-to-Table Guarantees for Bits and Bytes"
+  author: ["Torres-Arias, Santiago", "Afzali, Hammad", "Kuppusamy, Trishank Karthik", "Curtmola, Reza", "Cappos, Justin"]
+  date: 2019
+  page-range: 1393-1410
+  parent:
+    type: periodical
+    title: Proceedings of the 28th USENIX Security Symposium
+
+# ---------------------------------------------------------------------
+#  Segurança, autoridade e controle de acesso
+# ---------------------------------------------------------------------
+dennis1966:
+  type: article
+  title: Programming Semantics for Multiprogrammed Computations
+  author: ["Dennis, Jack B.", "Van Horn, Earl C."]
+  date: 1966
+  page-range: 143-155
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    volume: 9
+    issue: 3
+
+saltzer1975:
+  type: article
+  title: The Protection of Information in Computer Systems
+  author: ["Saltzer, Jerome H.", "Schroeder, Michael D."]
+  date: 1975
+  page-range: 1278-1308
+  parent:
+    type: periodical
+    title: Proceedings of the IEEE
+    volume: 63
+    issue: 9
+
+lampson1974:
+  type: article
+  title: Protection
+  author: ["Lampson, Butler W."]
+  date: 1974
+  page-range: 18-24
+  parent:
+    type: periodical
+    title: ACM SIGOPS Operating Systems Review
+    volume: 8
+    issue: 1
+
+hardy1988:
+  type: article
+  title: "The Confused Deputy: (or Why Capabilities Might Have Been Invented)"
+  author: ["Hardy, Norm"]
+  date: 1988
+  page-range: 36-38
+  parent:
+    type: periodical
+    title: ACM SIGOPS Operating Systems Review
+    volume: 22
+    issue: 4
+
+miller2006:
+  type: thesis
+  title: "Robust Composition: Towards a Unified Approach to Access Control and Concurrency Control"
+  author: ["Miller, Mark Samuel"]
+  date: 2006
+  organization: Johns Hopkins University
+
+sandhu1996:
+  type: article
+  title: Role-Based Access Control Models
+  author: ["Sandhu, Ravi S.", "Coyne, Edward J.", "Feinstein, Hal L.", "Youman, Charles E."]
+  date: 1996
+  page-range: 38-47
+  parent:
+    type: periodical
+    title: IEEE Computer
+    volume: 29
+    issue: 2
+
+hu2014:
+  type: report
+  title: Guide to Attribute Based Access Control (ABAC) Definition and Considerations
+  author: ["Hu, Vincent C.", "Ferraiolo, David", "Kuhn, Rick", "Schnitzer, Adam", "Sandlin, Kenneth", "Miller, Robert", "Scarfone, Karen"]
+  date: 2014
+  serial-number: NIST Special Publication 800-162
+  publisher: National Institute of Standards and Technology
+
+rfc6749:
+  type: report
+  title: The OAuth 2.0 Authorization Framework
+  author: ["Hardt, Dick"]
+  date: 2012
+  serial-number: RFC 6749
+  publisher: Internet Engineering Task Force
+
+denning1976:
+  type: article
+  title: A Lattice Model of Secure Information Flow
+  author: ["Denning, Dorothy E."]
+  date: 1976
+  page-range: 236-243
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    volume: 19
+    issue: 5
+
+bell1976:
+  type: report
+  title: "Secure Computer System: Unified Exposition and Multics Interpretation"
+  author: ["Bell, David Elliott", "LaPadula, Leonard J."]
+  date: 1976
+  serial-number: MTR-2997
+  publisher: The MITRE Corporation
+
+biba1977:
+  type: report
+  title: Integrity Considerations for Secure Computer Systems
+  author: ["Biba, Kenneth J."]
+  date: 1977
+  serial-number: MTR-3153
+  publisher: The MITRE Corporation
+
+goguen1982:
+  type: article
+  title: Security Policies and Security Models
+  author: ["Goguen, Joseph A.", "Meseguer, José"]
+  date: 1982
+  page-range: 11-20
+  parent:
+    type: periodical
+    title: Proceedings of the 1982 IEEE Symposium on Security and Privacy
+
+greshake2023:
+  type: article
+  title: "Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection"
+  author: ["Greshake, Kai", "Abdelnabi, Sahar", "Mishra, Shailesh", "Endres, Christoph", "Holz, Thorsten", "Fritz, Mario"]
+  date: 2023
+  page-range: 79-90
+  parent:
+    type: periodical
+    title: Proceedings of the 16th ACM Workshop on Artificial Intelligence and Security (AISec)
+
+perez2022:
+  type: article
+  title: "Ignore Previous Prompt: Attack Techniques For Language Models"
+  author: ["Perez, Fábio", "Ribeiro, Ian"]
+  date: 2022
+  url: https://arxiv.org/abs/2211.09527
+  parent:
+    type: periodical
+    title: NeurIPS ML Safety Workshop (arXiv:2211.09527)
+
+wallace2024:
+  type: article
+  title: "The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions"
+  author: ["Wallace, Eric", "Xiao, Kai", "Leike, Reimar", "Weng, Lilian", "Heidecke, Johannes", "Beutel, Alex"]
+  date: 2024
+  url: https://arxiv.org/abs/2404.13208
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2404.13208
+
+# ---------------------------------------------------------------------
+#  Proveniência, linhagem e visões
+# ---------------------------------------------------------------------
+buneman2001:
+  type: article
+  title: "Why and Where: A Characterization of Data Provenance"
+  author: ["Buneman, Peter", "Khanna, Sanjeev", "Tan, Wang-Chiew"]
+  date: 2001
+  page-range: 316-330
+  parent:
+    type: periodical
+    title: "Database Theory — ICDT 2001, Lecture Notes in Computer Science"
+    volume: 1973
+
+green2007:
+  type: article
+  title: Provenance Semirings
+  author: ["Green, Todd J.", "Karvounarakis, Grigoris", "Tannen, Val"]
+  date: 2007
+  page-range: 31-40
+  parent:
+    type: periodical
+    title: Proceedings of the 26th ACM SIGMOD-SIGACT-SIGART Symposium on Principles of Database Systems (PODS)
+
+cui2000:
+  type: article
+  title: Tracing the Lineage of View Data in a Warehousing Environment
+  author: ["Cui, Yingwei", "Widom, Jennifer", "Wiener, Janet L."]
+  date: 2000
+  page-range: 179-227
+  parent:
+    type: periodical
+    title: ACM Transactions on Database Systems
+    volume: 25
+    issue: 2
+
+prov2013:
+  type: report
+  title: "PROV-DM: The PROV Data Model"
+  editor: ["Moreau, Luc", "Missier, Paolo"]
+  date: 2013
+  serial-number: W3C Recommendation
+  publisher: World Wide Web Consortium
+  url: https://www.w3.org/TR/prov-dm/
+
+gupta1995:
+  type: article
+  title: "Maintenance of Materialized Views: Problems, Techniques, and Applications"
+  author: ["Gupta, Ashish", "Mumick, Inderpal Singh"]
+  date: 1995
+  page-range: 3-18
+  parent:
+    type: periodical
+    title: IEEE Data Engineering Bulletin
+    volume: 18
+    issue: 2
+
+bancilhon1981:
+  type: article
+  title: Update Semantics of Relational Views
+  author: ["Bancilhon, François", "Spyratos, Nicolas"]
+  date: 1981
+  page-range: 557-575
+  parent:
+    type: periodical
+    title: ACM Transactions on Database Systems
+    volume: 6
+    issue: 4
+
+foster2007:
+  type: article
+  title: "Combinators for Bidirectional Tree Transformations: A Linguistic Approach to the View-Update Problem"
+  author: ["Foster, J. Nathan", "Greenwald, Michael B.", "Moore, Jonathan T.", "Pierce, Benjamin C.", "Schmitt, Alan"]
+  date: 2007
+  parent:
+    type: periodical
+    title: ACM Transactions on Programming Languages and Systems
+    volume: 29
+    issue: 3
+
+codd1979:
+  type: article
+  title: Extending the Database Relational Model to Capture More Meaning
+  author: ["Codd, Edgar F."]
+  date: 1979
+  page-range: 397-434
+  parent:
+    type: periodical
+    title: ACM Transactions on Database Systems
+    volume: 4
+    issue: 4
+
+reiter1978:
+  type: chapter
+  title: On Closed World Data Bases
+  author: ["Reiter, Raymond"]
+  date: 1978
+  page-range: 55-76
+  parent:
+    type: book
+    title: Logic and Data Bases
+    editor: ["Gallaire, Hervé", "Minker, Jack"]
+    publisher: Plenum Press
+
+# ---------------------------------------------------------------------
+#  Lógica, epistemologia e revisão de crenças
+# ---------------------------------------------------------------------
+alchourron1985:
+  type: article
+  title: "On the Logic of Theory Change: Partial Meet Contraction and Revision Functions"
+  author: ["Alchourrón, Carlos E.", "Gärdenfors, Peter", "Makinson, David"]
+  date: 1985
+  page-range: 510-530
+  parent:
+    type: periodical
+    title: Journal of Symbolic Logic
+    volume: 50
+    issue: 2
+
+gardenfors1988:
+  type: book
+  title: "Knowledge in Flux: Modeling the Dynamics of Epistemic States"
+  author: ["Gärdenfors, Peter"]
+  date: 1988
+  publisher: MIT Press
+
+fagin1995:
+  type: book
+  title: Reasoning About Knowledge
+  author: ["Fagin, Ronald", "Halpern, Joseph Y.", "Moses, Yoram", "Vardi, Moshe Y."]
+  date: 1995
+  publisher: MIT Press
+
+hintikka1962:
+  type: book
+  title: "Knowledge and Belief: An Introduction to the Logic of the Two Notions"
+  author: ["Hintikka, Jaakko"]
+  date: 1962
+  publisher: Cornell University Press
+
+gettier1963:
+  type: article
+  title: Is Justified True Belief Knowledge?
+  author: ["Gettier, Edmund L."]
+  date: 1963
+  page-range: 121-123
+  parent:
+    type: periodical
+    title: Analysis
+    volume: 23
+    issue: 6
+
+kleene1952:
+  type: book
+  title: Introduction to Metamathematics
+  author: ["Kleene, Stephen Cole"]
+  date: 1952
+  publisher: North-Holland
+
+belnap1977:
+  type: chapter
+  title: A Useful Four-Valued Logic
+  author: ["Belnap, Nuel D."]
+  date: 1977
+  page-range: 5-37
+  parent:
+    type: book
+    title: Modern Uses of Multiple-Valued Logic
+    editor: ["Dunn, J. Michael", "Epstein, George"]
+    publisher: D. Reidel
+
+doyle1979:
+  type: article
+  title: A Truth Maintenance System
+  author: ["Doyle, Jon"]
+  date: 1979
+  page-range: 231-272
+  parent:
+    type: periodical
+    title: Artificial Intelligence
+    volume: 12
+    issue: 3
+
+dekleer1986:
+  type: article
+  title: An Assumption-Based TMS
+  author:
+    - name: "de Kleer"
+      given-name: Johan
+  date: 1986
+  page-range: 127-162
+  parent:
+    type: periodical
+    title: Artificial Intelligence
+    volume: 28
+    issue: 2
+
+mccarthy1969:
+  type: chapter
+  title: Some Philosophical Problems from the Standpoint of Artificial Intelligence
+  author: ["McCarthy, John", "Hayes, Patrick J."]
+  date: 1969
+  page-range: 463-502
+  parent:
+    type: book
+    title: Machine Intelligence 4
+    editor: ["Meltzer, Bernard", "Michie, Donald"]
+    publisher: Edinburgh University Press
+
+mccarthy1993:
+  type: article
+  title: Notes on Formalizing Context
+  author: ["McCarthy, John"]
+  date: 1993
+  page-range: 555-560
+  parent:
+    type: periodical
+    title: Proceedings of the 13th International Joint Conference on Artificial Intelligence (IJCAI)
+
+guha1991:
+  type: thesis
+  title: "Contexts: A Formalization and Some Applications"
+  author: ["Guha, Ramanathan V."]
+  date: 1991
+  organization: Stanford University
+
+cousot1977:
+  type: article
+  title: "Abstract Interpretation: A Unified Lattice Model for Static Analysis of Programs by Construction or Approximation of Fixpoints"
+  author: ["Cousot, Patrick", "Cousot, Radhia"]
+  date: 1977
+  page-range: 238-252
+  parent:
+    type: periodical
+    title: Proceedings of the 4th ACM Symposium on Principles of Programming Languages (POPL)
+
+davey2002:
+  type: book
+  title: Introduction to Lattices and Order
+  author: ["Davey, Brian A.", "Priestley, Hilary A."]
+  date: 2002
+  edition: 2
+  publisher: Cambridge University Press
+
+hoare1969:
+  type: article
+  title: An Axiomatic Basis for Computer Programming
+  author: ["Hoare, C. A. R."]
+  date: 1969
+  page-range: 576-580
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    volume: 12
+    issue: 10
+
+meyer1992:
+  type: article
+  title: Applying "Design by Contract"
+  author: ["Meyer, Bertrand"]
+  date: 1992
+  page-range: 40-51
+  parent:
+    type: periodical
+    title: IEEE Computer
+    volume: 25
+    issue: 10
+
+popper1959:
+  type: book
+  title: The Logic of Scientific Discovery
+  author: ["Popper, Karl R."]
+  date: 1959
+  publisher: Hutchinson
+
+# ---------------------------------------------------------------------
+#  Comunicação, cognição e atenção
+# ---------------------------------------------------------------------
+clark1991:
+  type: chapter
+  title: Grounding in Communication
+  author: ["Clark, Herbert H.", "Brennan, Susan E."]
+  date: 1991
+  page-range: 127-149
+  parent:
+    type: book
+    title: Perspectives on Socially Shared Cognition
+    editor: ["Resnick, Lauren B.", "Levine, John M.", "Teasley, Stephanie D."]
+    publisher: American Psychological Association
+
+grice1975:
+  type: chapter
+  title: Logic and Conversation
+  author: ["Grice, H. Paul"]
+  date: 1975
+  page-range: 41-58
+  parent:
+    type: book
+    title: "Syntax and Semantics, Vol. 3: Speech Acts"
+    editor: ["Cole, Peter", "Morgan, Jerry L."]
+    publisher: Academic Press
+
+sperber1986:
+  type: book
+  title: "Relevance: Communication and Cognition"
+  author: ["Sperber, Dan", "Wilson, Deirdre"]
+  date: 1986
+  publisher: Blackwell
+
+searle1969:
+  type: book
+  title: "Speech Acts: An Essay in the Philosophy of Language"
+  author: ["Searle, John R."]
+  date: 1969
+  publisher: Cambridge University Press
+
+shannon1948:
+  type: article
+  title: A Mathematical Theory of Communication
+  author: ["Shannon, Claude E."]
+  date: 1948
+  page-range: 379-423, 623-656
+  parent:
+    type: periodical
+    title: Bell System Technical Journal
+    volume: 27
+    issue: 3-4
+
+cover2006:
+  type: book
+  title: Elements of Information Theory
+  author: ["Cover, Thomas M.", "Thomas, Joy A."]
+  date: 2006
+  edition: 2
+  publisher: Wiley
+
+simon1971:
+  type: chapter
+  title: Designing Organizations for an Information-Rich World
+  author: ["Simon, Herbert A."]
+  date: 1971
+  page-range: 37-72
+  parent:
+    type: book
+    title: Computers, Communications, and the Public Interest
+    editor: ["Greenberger, Martin"]
+    publisher: Johns Hopkins Press
+
+miller1956:
+  type: article
+  title: "The Magical Number Seven, Plus or Minus Two: Some Limits on Our Capacity for Processing Information"
+  author: ["Miller, George A."]
+  date: 1956
+  page-range: 81-97
+  parent:
+    type: periodical
+    title: Psychological Review
+    volume: 63
+    issue: 2
+
+sweller1988:
+  type: article
+  title: "Cognitive Load During Problem Solving: Effects on Learning"
+  author: ["Sweller, John"]
+  date: 1988
+  page-range: 257-285
+  parent:
+    type: periodical
+    title: Cognitive Science
+    volume: 12
+    issue: 2
+
+endsley1995:
+  type: article
+  title: Toward a Theory of Situation Awareness in Dynamic Systems
+  author: ["Endsley, Mica R."]
+  date: 1995
+  page-range: 32-64
+  parent:
+    type: periodical
+    title: Human Factors
+    volume: 37
+    issue: 1
+
+hutchins1995:
+  type: book
+  title: Cognition in the Wild
+  author: ["Hutchins, Edwin"]
+  date: 1995
+  publisher: MIT Press
+
+suchman1987:
+  type: book
+  title: "Plans and Situated Actions: The Problem of Human-Machine Communication"
+  author: ["Suchman, Lucy A."]
+  date: 1987
+  publisher: Cambridge University Press
+
+dey2001:
+  type: article
+  title: Understanding and Using Context
+  author: ["Dey, Anind K."]
+  date: 2001
+  page-range: 4-7
+  parent:
+    type: periodical
+    title: Personal and Ubiquitous Computing
+    volume: 5
+    issue: 1
+
+osinga2007:
+  type: book
+  title: "Science, Strategy and War: The Strategic Theory of John Boyd"
+  author: ["Osinga, Frans P. B."]
+  date: 2007
+  publisher: Routledge
+
+pirolli1999:
+  type: article
+  title: Information Foraging
+  author: ["Pirolli, Peter", "Card, Stuart"]
+  date: 1999
+  page-range: 643-675
+  parent:
+    type: periodical
+    title: Psychological Review
+    volume: 106
+    issue: 4
+
+furnas1986:
+  type: article
+  title: Generalized Fisheye Views
+  author: ["Furnas, George W."]
+  date: 1986
+  page-range: 16-23
+  parent:
+    type: periodical
+    title: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '86)
+
+shneiderman1996:
+  type: article
+  title: "The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations"
+  author: ["Shneiderman, Ben"]
+  date: 1996
+  page-range: 336-343
+  parent:
+    type: periodical
+    title: Proceedings of the IEEE Symposium on Visual Languages
+
+norman2013:
+  type: book
+  title: The Design of Everyday Things
+  author: ["Norman, Donald A."]
+  date: 2013
+  edition: Revised and expanded
+  publisher: Basic Books
+
+gibson1979:
+  type: book
+  title: The Ecological Approach to Visual Perception
+  author: ["Gibson, James J."]
+  date: 1979
+  publisher: Houghton Mifflin
+
+tufte1983:
+  type: book
+  title: The Visual Display of Quantitative Information
+  author: ["Tufte, Edward R."]
+  date: 1983
+  publisher: Graphics Press
+
+# ---------------------------------------------------------------------
+#  Algoritmos, complexidade e otimização
+# ---------------------------------------------------------------------
+cormen2022:
+  type: book
+  title: Introduction to Algorithms
+  author: ["Cormen, Thomas H.", "Leiserson, Charles E.", "Rivest, Ronald L.", "Stein, Clifford"]
+  date: 2022
+  edition: 4
+  publisher: MIT Press
+
+karp1972:
+  type: chapter
+  title: Reducibility among Combinatorial Problems
+  author: ["Karp, Richard M."]
+  date: 1972
+  page-range: 85-103
+  parent:
+    type: book
+    title: Complexity of Computer Computations
+    editor: ["Miller, Raymond E.", "Thatcher, James W."]
+    publisher: Plenum Press
+
+garey1979:
+  type: book
+  title: "Computers and Intractability: A Guide to the Theory of NP-Completeness"
+  author: ["Garey, Michael R.", "Johnson, David S."]
+  date: 1979
+  publisher: W. H. Freeman
+
+nemhauser1978:
+  type: article
+  title: An Analysis of Approximations for Maximizing Submodular Set Functions — I
+  author: ["Nemhauser, George L.", "Wolsey, Laurence A.", "Fisher, Marshall L."]
+  date: 1978
+  page-range: 265-294
+  parent:
+    type: periodical
+    title: Mathematical Programming
+    volume: 14
+    issue: 1
+
+khuller1999:
+  type: article
+  title: The Budgeted Maximum Coverage Problem
+  author: ["Khuller, Samir", "Moss, Anna", "Naor, Joseph"]
+  date: 1999
+  page-range: 39-45
+  parent:
+    type: periodical
+    title: Information Processing Letters
+    volume: 70
+    issue: 1
+
+sviridenko2004:
+  type: article
+  title: A Note on Maximizing a Submodular Set Function Subject to a Knapsack Constraint
+  author: ["Sviridenko, Maxim"]
+  date: 2004
+  page-range: 41-43
+  parent:
+    type: periodical
+    title: Operations Research Letters
+    volume: 32
+    issue: 1
+
+feige1998:
+  type: article
+  title: A Threshold of ln n for Approximating Set Cover
+  author: ["Feige, Uriel"]
+  date: 1998
+  page-range: 634-652
+  parent:
+    type: periodical
+    title: Journal of the ACM
+    volume: 45
+    issue: 4
+
+krause2014:
+  type: chapter
+  title: Submodular Function Maximization
+  author: ["Krause, Andreas", "Golovin, Daniel"]
+  date: 2014
+  page-range: 71-104
+  parent:
+    type: book
+    title: "Tractability: Practical Approaches to Hard Problems"
+    editor: ["Bordeaux, Lucas", "Hamadi, Youssef", "Kohli, Pushmeet"]
+    publisher: Cambridge University Press
+
+carbonell1998:
+  type: article
+  title: The Use of MMR, Diversity-Based Reranking for Reordering Documents and Producing Summaries
+  author: ["Carbonell, Jaime", "Goldstein, Jade"]
+  date: 1998
+  page-range: 335-336
+  parent:
+    type: periodical
+    title: Proceedings of the 21st Annual International ACM SIGIR Conference on Research and Development in Information Retrieval
+
+robertson2009:
+  type: article
+  title: "The Probabilistic Relevance Framework: BM25 and Beyond"
+  author: ["Robertson, Stephen", "Zaragoza, Hugo"]
+  date: 2009
+  page-range: 333-389
+  parent:
+    type: periodical
+    title: Foundations and Trends in Information Retrieval
+    volume: 3
+    issue: 4
+
+manning2008:
+  type: book
+  title: Introduction to Information Retrieval
+  author: ["Manning, Christopher D.", "Raghavan, Prabhakar", "Schütze, Hinrich"]
+  date: 2008
+  publisher: Cambridge University Press
+
+# ---------------------------------------------------------------------
+#  Engenharia de software e sistemas
+# ---------------------------------------------------------------------
+parnas1972:
+  type: article
+  title: On the Criteria to Be Used in Decomposing Systems into Modules
+  author: ["Parnas, David L."]
+  date: 1972
+  page-range: 1053-1058
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    volume: 15
+    issue: 12
+
+dijkstra1982:
+  type: chapter
+  title: On the Role of Scientific Thought
+  author: ["Dijkstra, Edsger W."]
+  date: 1982
+  page-range: 60-66
+  parent:
+    type: book
+    title: "Selected Writings on Computing: A Personal Perspective"
+    publisher: Springer
+
+conway1968:
+  type: article
+  title: How Do Committees Invent?
+  author: ["Conway, Melvin E."]
+  date: 1968
+  page-range: 28-31
+  parent:
+    type: periodical
+    title: Datamation
+    volume: 14
+    issue: 4
+
+brooks1975:
+  type: book
+  title: "The Mythical Man-Month: Essays on Software Engineering"
+  author: ["Brooks, Frederick P."]
+  date: 1975
+  publisher: Addison-Wesley
+
+lehman1980:
+  type: article
+  title: Programs, Life Cycles, and Laws of Software Evolution
+  author: ["Lehman, Meir M."]
+  date: 1980
+  page-range: 1060-1076
+  parent:
+    type: periodical
+    title: Proceedings of the IEEE
+    volume: 68
+    issue: 9
+
+cunningham1992:
+  type: article
+  title: The WyCash Portfolio Management System
+  author: ["Cunningham, Ward"]
+  date: 1992
+  page-range: 29-30
+  parent:
+    type: periodical
+    title: OOPSLA '92 Addendum to the Proceedings (Experience Report)
+
+sculley2015:
+  type: article
+  title: Hidden Technical Debt in Machine Learning Systems
+  author: ["Sculley, D.", "Holt, Gary", "Golovin, Daniel", "Davydov, Eugene", "Phillips, Todd", "Ebner, Dietmar", "Chaudhary, Vinay", "Young, Michael", "Crespo, Jean-François", "Dennison, Dan"]
+  date: 2015
+  page-range: 2503-2511
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 28
+
+# ---------------------------------------------------------------------
+#  Agentes e sistemas multiagente (clássicos)
+# ---------------------------------------------------------------------
+russell2021:
+  type: book
+  title: "Artificial Intelligence: A Modern Approach"
+  author: ["Russell, Stuart", "Norvig, Peter"]
+  date: 2021
+  edition: 4
+  publisher: Pearson
+
+wooldridge2009:
+  type: book
+  title: An Introduction to MultiAgent Systems
+  author: ["Wooldridge, Michael"]
+  date: 2009
+  edition: 2
+  publisher: Wiley
+
+rao1995:
+  type: article
+  title: "BDI Agents: From Theory to Practice"
+  author: ["Rao, Anand S.", "Georgeff, Michael P."]
+  date: 1995
+  page-range: 312-319
+  parent:
+    type: periodical
+    title: Proceedings of the First International Conference on Multi-Agent Systems (ICMAS-95)
+
+smith1980:
+  type: article
+  title: "The Contract Net Protocol: High-Level Communication and Control in a Distributed Problem Solver"
+  author: ["Smith, Reid G."]
+  date: 1980
+  page-range: 1104-1113
+  parent:
+    type: periodical
+    title: IEEE Transactions on Computers
+    volume: C-29
+    issue: 12
+
+hewitt1973:
+  type: article
+  title: A Universal Modular ACTOR Formalism for Artificial Intelligence
+  author: ["Hewitt, Carl", "Bishop, Peter", "Steiger, Richard"]
+  date: 1973
+  page-range: 235-245
+  parent:
+    type: periodical
+    title: Proceedings of the 3rd International Joint Conference on Artificial Intelligence (IJCAI)
+
+nii1986:
+  type: article
+  title: "Blackboard Systems: The Blackboard Model of Problem Solving and the Evolution of Blackboard Architectures"
+  author: ["Nii, H. Penny"]
+  date: 1986
+  page-range: 38-53
+  parent:
+    type: periodical
+    title: AI Magazine
+    volume: 7
+    issue: 2
+
+finin1994:
+  type: article
+  title: KQML as an Agent Communication Language
+  author: ["Finin, Tim", "Fritzson, Richard", "McKay, Don", "McEntire, Robin"]
+  date: 1994
+  page-range: 456-463
+  parent:
+    type: periodical
+    title: Proceedings of the Third International Conference on Information and Knowledge Management (CIKM '94)
+
+# ---------------------------------------------------------------------
+#  Modelos de linguagem: arquitetura e janela de contexto
+# ---------------------------------------------------------------------
+vaswani2017:
+  type: article
+  title: Attention Is All You Need
+  author: ["Vaswani, Ashish", "Shazeer, Noam", "Parmar, Niki", "Uszkoreit, Jakob", "Jones, Llion", "Gomez, Aidan N.", "Kaiser, Łukasz", "Polosukhin, Illia"]
+  date: 2017
+  page-range: 5998-6008
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 30
+
+brown2020:
+  type: article
+  title: Language Models Are Few-Shot Learners
+  author: ["Brown, Tom B.", "Mann, Benjamin", "Ryder, Nick", "Subbiah, Melanie", "Kaplan, Jared", "Dhariwal, Prafulla", "Neelakantan, Arvind", "Shyam, Pranav", "others"]
+  date: 2020
+  page-range: 1877-1901
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 33
+
+kaplan2020:
+  type: article
+  title: Scaling Laws for Neural Language Models
+  author: ["Kaplan, Jared", "McCandlish, Sam", "Henighan, Tom", "Brown, Tom B.", "Chess, Benjamin", "Child, Rewon", "Gray, Scott", "Radford, Alec", "Wu, Jeffrey", "Amodei, Dario"]
+  date: 2020
+  url: https://arxiv.org/abs/2001.08361
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2001.08361
+
+ouyang2022:
+  type: article
+  title: Training Language Models to Follow Instructions with Human Feedback
+  author: ["Ouyang, Long", "Wu, Jeffrey", "Jiang, Xu", "Almeida, Diogo", "Wainwright, Carroll L.", "Mishkin, Pamela", "Zhang, Chong", "Agarwal, Sandhini", "others"]
+  date: 2022
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 35
+
+su2024:
+  type: article
+  title: "RoFormer: Enhanced Transformer with Rotary Position Embedding"
+  author: ["Su, Jianlin", "Ahmed, Murtadha", "Lu, Yu", "Pan, Shengfeng", "Bo, Wen", "Liu, Yunfeng"]
+  date: 2024
+  page-range: "127063"
+  parent:
+    type: periodical
+    title: Neurocomputing
+    volume: 568
+
+press2022:
+  type: article
+  title: "Train Short, Test Long: Attention with Linear Biases Enables Input Length Extrapolation"
+  author: ["Press, Ofir", "Smith, Noah A.", "Lewis, Mike"]
+  date: 2022
+  parent:
+    type: periodical
+    title: International Conference on Learning Representations (ICLR)
+
+dao2022:
+  type: article
+  title: "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness"
+  author: ["Dao, Tri", "Fu, Daniel Y.", "Ermon, Stefano", "Rudra, Atri", "Ré, Christopher"]
+  date: 2022
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 35
+
+pope2023:
+  type: article
+  title: Efficiently Scaling Transformer Inference
+  author: ["Pope, Reiner", "Douglas, Sholto", "Chowdhery, Aakanksha", "Devlin, Jacob", "Bradbury, James", "Levskaya, Anselm", "Heek, Jonathan", "Xiao, Kefan", "others"]
+  date: 2023
+  parent:
+    type: periodical
+    title: Proceedings of Machine Learning and Systems 5 (MLSys)
+
+beltagy2020:
+  type: article
+  title: "Longformer: The Long-Document Transformer"
+  author: ["Beltagy, Iz", "Peters, Matthew E.", "Cohan, Arman"]
+  date: 2020
+  url: https://arxiv.org/abs/2004.05150
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2004.05150
+
+xiao2024:
+  type: article
+  title: Efficient Streaming Language Models with Attention Sinks
+  author: ["Xiao, Guangxuan", "Tian, Yuandong", "Chen, Beidi", "Han, Song", "Lewis, Mike"]
+  date: 2024
+  parent:
+    type: periodical
+    title: International Conference on Learning Representations (ICLR)
+
+gim2024:
+  type: article
+  title: "Prompt Cache: Modular Attention Reuse for Low-Latency Inference"
+  author: ["Gim, In", "Chen, Guojun", "Lee, Seung-seob", "Sarda, Nikhil", "Khandelwal, Anurag", "Zhong, Lin"]
+  date: 2024
+  parent:
+    type: periodical
+    title: Proceedings of Machine Learning and Systems 6 (MLSys)
+
+zheng2024sglang:
+  type: article
+  title: "SGLang: Efficient Execution of Structured Language Model Programs"
+  author: ["Zheng, Lianmin", "Yin, Liangsheng", "Xie, Zhiqiang", "Sun, Chuyue", "Huang, Jeff", "Yu, Cody Hao", "Cao, Shiyi", "Kozyrakis, Christos", "others"]
+  date: 2024
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 37
+
+liu2024lost:
+  type: article
+  title: "Lost in the Middle: How Language Models Use Long Contexts"
+  author: ["Liu, Nelson F.", "Lin, Kevin", "Hewitt, John", "Paranjape, Ashwin", "Bevilacqua, Michele", "Petroni, Fabio", "Liang, Percy"]
+  date: 2024
+  page-range: 157-173
+  parent:
+    type: periodical
+    title: Transactions of the Association for Computational Linguistics
+    volume: 12
+
+shi2023:
+  type: article
+  title: Large Language Models Can Be Easily Distracted by Irrelevant Context
+  author: ["Shi, Freda", "Chen, Xinyun", "Misra, Kanishka", "Scales, Nathan", "Dohan, David", "Chi, Ed H.", "Schärli, Nathanael", "Zhou, Denny"]
+  date: 2023
+  page-range: 31210-31227
+  parent:
+    type: periodical
+    title: Proceedings of the 40th International Conference on Machine Learning (ICML), PMLR 202
+
+levy2024:
+  type: article
+  title: "Same Task, More Tokens: The Impact of Input Length on the Reasoning Performance of Large Language Models"
+  author: ["Levy, Mosh", "Jacoby, Alon", "Goldberg, Yoav"]
+  date: 2024
+  parent:
+    type: periodical
+    title: Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL)
+
+hsieh2024:
+  type: article
+  title: "RULER: What's the Real Context Size of Your Long-Context Language Models?"
+  author: ["Hsieh, Cheng-Ping", "Sun, Simeng", "Kriman, Samuel", "Acharya, Shantanu", "Rekesh, Dima", "Jia, Fei", "Zhang, Yang", "Ginsburg, Boris"]
+  date: 2024
+  parent:
+    type: periodical
+    title: First Conference on Language Modeling (COLM)
+
+bai2024longbench:
+  type: article
+  title: "LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding"
+  author: ["Bai, Yushi", "Lv, Xin", "Zhang, Jiajie", "Lyu, Hongchang", "Tang, Jiankai", "Huang, Zhidian", "Du, Zhengxiao", "Liu, Xiao", "Zeng, Aohan", "Hou, Lei", "Dong, Yuxiao", "Tang, Jie", "Li, Juanzi"]
+  date: 2024
+  page-range: 3119-3137
+  parent:
+    type: periodical
+    title: Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL)
+
+hong2025:
+  type: report
+  title: "Context Rot: How Increasing Input Tokens Impacts LLM Performance"
+  author: ["Hong, Kelly", "Troynikov, Anton", "Huber, Jeff"]
+  date: 2025-07-14
+  publisher: Chroma (relatório técnico)
+  url: https://www.trychroma.com/research/context-rot
+
+kamradt2023:
+  type: web
+  title: "Needle In A Haystack — Pressure Testing LLMs"
+  author: ["Kamradt, Greg"]
+  date: 2023
+  url: https://github.com/gkamradt/LLMTest_NeedleInAHaystack
+
+ji2023:
+  type: article
+  title: Survey of Hallucination in Natural Language Generation
+  author: ["Ji, Ziwei", "Lee, Nayeon", "Frieske, Rita", "Yu, Tiezheng", "Su, Dan", "Xu, Yan", "Ishii, Etsuko", "Bang, Ye Jin", "others"]
+  date: 2023
+  parent:
+    type: periodical
+    title: ACM Computing Surveys
+    volume: 55
+    issue: 12
+
+# ---------------------------------------------------------------------
+#  Recuperação, memória e compressão
+# ---------------------------------------------------------------------
+lewis2020:
+  type: article
+  title: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
+  author: ["Lewis, Patrick", "Perez, Ethan", "Piktus, Aleksandra", "Petroni, Fabio", "Karpukhin, Vladimir", "Goyal, Naman", "Küttler, Heinrich", "Lewis, Mike", "others"]
+  date: 2020
+  page-range: 9459-9474
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 33
+
+guu2020:
+  type: article
+  title: "REALM: Retrieval-Augmented Language Model Pre-Training"
+  author: ["Guu, Kelvin", "Lee, Kenton", "Tung, Zora", "Pasupat, Panupong", "Chang, Ming-Wei"]
+  date: 2020
+  page-range: 3929-3938
+  parent:
+    type: periodical
+    title: Proceedings of the 37th International Conference on Machine Learning (ICML), PMLR 119
+
+karpukhin2020:
+  type: article
+  title: Dense Passage Retrieval for Open-Domain Question Answering
+  author: ["Karpukhin, Vladimir", "Oğuz, Barlas", "Min, Sewon", "Lewis, Patrick", "Wu, Ledell", "Edunov, Sergey", "Chen, Danqi", "Yih, Wen-tau"]
+  date: 2020
+  page-range: 6769-6781
+  parent:
+    type: periodical
+    title: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+
+borgeaud2022:
+  type: article
+  title: Improving Language Models by Retrieving from Trillions of Tokens
+  author: ["Borgeaud, Sebastian", "Mensch, Arthur", "Hoffmann, Jordan", "Cai, Trevor", "Rutherford, Eliza", "Millican, Katie", "van den Driessche, George", "Lespiau, Jean-Baptiste", "others"]
+  date: 2022
+  page-range: 2206-2240
+  parent:
+    type: periodical
+    title: Proceedings of the 39th International Conference on Machine Learning (ICML), PMLR 162
+
+asai2024:
+  type: article
+  title: "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection"
+  author: ["Asai, Akari", "Wu, Zeqiu", "Wang, Yizhong", "Sil, Avirup", "Hajishirzi, Hannaneh"]
+  date: 2024
+  parent:
+    type: periodical
+    title: International Conference on Learning Representations (ICLR)
+
+gao2023rag:
+  type: article
+  title: "Retrieval-Augmented Generation for Large Language Models: A Survey"
+  author: ["Gao, Yunfan", "Xiong, Yun", "Gao, Xinyu", "Jia, Kangxiang", "Pan, Jinliu", "Bi, Yuxi", "Dai, Yi", "Sun, Jiawei", "others"]
+  date: 2023
+  url: https://arxiv.org/abs/2312.10997
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2312.10997
+
+edge2024:
+  type: article
+  title: "From Local to Global: A Graph RAG Approach to Query-Focused Summarization"
+  author: ["Edge, Darren", "Trinh, Ha", "Cheng, Newman", "Bradley, Joshua", "Chao, Alex", "Mody, Apurva", "Truitt, Steven", "Larson, Jonathan"]
+  date: 2024
+  url: https://arxiv.org/abs/2404.16130
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2404.16130
+
+packer2023:
+  type: article
+  title: "MemGPT: Towards LLMs as Operating Systems"
+  author: ["Packer, Charles", "Wooders, Sarah", "Lin, Kevin", "Fang, Vivian", "Patil, Shishir G.", "Stoica, Ion", "Gonzalez, Joseph E."]
+  date: 2023
+  url: https://arxiv.org/abs/2310.08560
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2310.08560
+
+zhang2024memory:
+  type: article
+  title: A Survey on the Memory Mechanism of Large Language Model Based Agents
+  author: ["Zhang, Zeyu", "Bo, Xiaohe", "Ma, Chen", "Li, Rui", "Chen, Xu", "Dai, Quanyu", "Zhu, Jieming", "Dong, Zhenhua", "Wen, Ji-Rong"]
+  date: 2025
+  parent:
+    type: periodical
+    title: ACM Transactions on Information Systems
+
+jiang2023llmlingua:
+  type: article
+  title: "LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models"
+  author: ["Jiang, Huiqiang", "Wu, Qianhui", "Lin, Chin-Yew", "Yang, Yuqing", "Qiu, Lili"]
+  date: 2023
+  page-range: 13358-13376
+  parent:
+    type: periodical
+    title: Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+
+mu2023:
+  type: article
+  title: Learning to Compress Prompts with Gist Tokens
+  author: ["Mu, Jesse", "Li, Xiang Lisa", "Goodman, Noah"]
+  date: 2023
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 36
+
+chevalier2023:
+  type: article
+  title: Adapting Language Models to Compress Contexts
+  author: ["Chevalier, Alexis", "Wettig, Alexander", "Ajith, Anirudh", "Chen, Danqi"]
+  date: 2023
+  page-range: 3829-3846
+  parent:
+    type: periodical
+    title: Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+
+xu2024recomp:
+  type: article
+  title: "RECOMP: Improving Retrieval-Augmented LMs with Context Compression and Selective Augmentation"
+  author: ["Xu, Fangyuan", "Shi, Weijia", "Choi, Eunsol"]
+  date: 2024
+  parent:
+    type: periodical
+    title: International Conference on Learning Representations (ICLR)
+
+# ---------------------------------------------------------------------
+#  Agentes baseados em LLM
+# ---------------------------------------------------------------------
+wei2022cot:
+  type: article
+  title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+  author: ["Wei, Jason", "Wang, Xuezhi", "Schuurmans, Dale", "Bosma, Maarten", "Ichter, Brian", "Xia, Fei", "Chi, Ed H.", "Le, Quoc V.", "Zhou, Denny"]
+  date: 2022
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 35
+
+yao2023react:
+  type: article
+  title: "ReAct: Synergizing Reasoning and Acting in Language Models"
+  author: ["Yao, Shunyu", "Zhao, Jeffrey", "Yu, Dian", "Du, Nan", "Shafran, Izhak", "Narasimhan, Karthik", "Cao, Yuan"]
+  date: 2023
+  parent:
+    type: periodical
+    title: International Conference on Learning Representations (ICLR)
+
+yao2023tot:
+  type: article
+  title: "Tree of Thoughts: Deliberate Problem Solving with Large Language Models"
+  author: ["Yao, Shunyu", "Yu, Dian", "Zhao, Jeffrey", "Shafran, Izhak", "Griffiths, Thomas L.", "Cao, Yuan", "Narasimhan, Karthik"]
+  date: 2023
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 36
+
+shinn2023:
+  type: article
+  title: "Reflexion: Language Agents with Verbal Reinforcement Learning"
+  author: ["Shinn, Noah", "Cassano, Federico", "Gopinath, Ashwin", "Narasimhan, Karthik", "Yao, Shunyu"]
+  date: 2023
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 36
+
+madaan2023:
+  type: article
+  title: "Self-Refine: Iterative Refinement with Self-Feedback"
+  author: ["Madaan, Aman", "Tandon, Niket", "Gupta, Prakhar", "Hallinan, Skyler", "Gao, Luyu", "Wiegreffe, Sarah", "Alon, Uri", "Dziri, Nouha", "others"]
+  date: 2023
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 36
+
+schick2023:
+  type: article
+  title: "Toolformer: Language Models Can Teach Themselves to Use Tools"
+  author: ["Schick, Timo", "Dwivedi-Yu, Jane", "Dessì, Roberto", "Raileanu, Roberta", "Lomeli, Maria", "Hambro, Eric", "Zettlemoyer, Luke", "Cancedda, Nicola", "Scialom, Thomas"]
+  date: 2023
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 36
+
+park2023:
+  type: article
+  title: "Generative Agents: Interactive Simulacra of Human Behavior"
+  author: ["Park, Joon Sung", "O'Brien, Joseph C.", "Cai, Carrie J.", "Morris, Meredith Ringel", "Liang, Percy", "Bernstein, Michael S."]
+  date: 2023
+  parent:
+    type: periodical
+    title: "Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology (UIST '23)"
+
+wang2023voyager:
+  type: article
+  title: "Voyager: An Open-Ended Embodied Agent with Large Language Models"
+  author: ["Wang, Guanzhi", "Xie, Yuqi", "Jiang, Yunfan", "Mandlekar, Ajay", "Xiao, Chaowei", "Zhu, Yuke", "Fan, Linxi", "Anandkumar, Anima"]
+  date: 2023
+  url: https://arxiv.org/abs/2305.16291
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2305.16291
+
+sumers2024:
+  type: article
+  title: Cognitive Architectures for Language Agents
+  author: ["Sumers, Theodore R.", "Yao, Shunyu", "Narasimhan, Karthik", "Griffiths, Thomas L."]
+  date: 2024
+  parent:
+    type: periodical
+    title: Transactions on Machine Learning Research
+
+wang2024survey:
+  type: article
+  title: A Survey on Large Language Model Based Autonomous Agents
+  author: ["Wang, Lei", "Ma, Chen", "Feng, Xueyang", "Zhang, Zeyu", "Yang, Hao", "Zhang, Jingsen", "Chen, Zhiyuan", "Tang, Jiakai", "others"]
+  date: 2024
+  parent:
+    type: periodical
+    title: Frontiers of Computer Science
+    volume: 18
+    issue: 6
+
+mialon2023:
+  type: article
+  title: "Augmented Language Models: A Survey"
+  author: ["Mialon, Grégoire", "Dessì, Roberto", "Lomeli, Maria", "Nalmpantis, Christoforos", "Pasunuru, Ram", "Raileanu, Roberta", "Rozière, Baptiste", "Schick, Timo", "others"]
+  date: 2023
+  parent:
+    type: periodical
+    title: Transactions on Machine Learning Research
+
+wu2023autogen:
+  type: article
+  title: "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation"
+  author: ["Wu, Qingyun", "Bansal, Gagan", "Zhang, Jieyu", "Wu, Yiran", "Li, Beibin", "Zhu, Erkang", "Jiang, Li", "Zhang, Xiaoyun", "others"]
+  date: 2023
+  url: https://arxiv.org/abs/2308.08155
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2308.08155
+
+hong2024metagpt:
+  type: article
+  title: "MetaGPT: Meta Programming for a Multi-Agent Collaborative Framework"
+  author: ["Hong, Sirui", "Zhuge, Mingchen", "Chen, Jonathan", "Zheng, Xiawu", "Cheng, Yuheng", "Zhang, Ceyao", "Wang, Jinlin", "Wang, Zili", "others"]
+  date: 2024
+  parent:
+    type: periodical
+    title: International Conference on Learning Representations (ICLR)
+
+khattab2024:
+  type: article
+  title: "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines"
+  author: ["Khattab, Omar", "Singhvi, Arnav", "Maheshwari, Paridhi", "Zhang, Zhiyuan", "Santhanam, Keshav", "Vardhamanan, Sri", "Haq, Saiful", "Sharma, Ashutosh", "others"]
+  date: 2024
+  parent:
+    type: periodical
+    title: International Conference on Learning Representations (ICLR)
+
+reynolds2021:
+  type: article
+  title: "Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm"
+  author: ["Reynolds, Laria", "McDonell, Kyle"]
+  date: 2021
+  parent:
+    type: periodical
+    title: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems
+
+liu2023prompt:
+  type: article
+  title: "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing"
+  author: ["Liu, Pengfei", "Yuan, Weizhe", "Fu, Jinlan", "Jiang, Zhengbao", "Hayashi, Hiroaki", "Neubig, Graham"]
+  date: 2023
+  parent:
+    type: periodical
+    title: ACM Computing Surveys
+    volume: 55
+    issue: 9
+
+mei2025:
+  type: article
+  title: A Survey of Context Engineering for Large Language Models
+  author: ["Mei, Lingrui", "Yao, Jiayu", "Ge, Yuyao", "Wang, Yiwei", "Bi, Baolong", "Cai, Yujun", "Liu, Jiazhi", "Li, Mingyu", "others"]
+  date: 2025
+  url: https://arxiv.org/abs/2507.13334
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2507.13334
+
+bai2022constitutional:
+  type: article
+  title: "Constitutional AI: Harmlessness from AI Feedback"
+  author: ["Bai, Yuntao", "Kadavath, Saurav", "Kundu, Sandipan", "Askell, Amanda", "Kernion, Jackson", "Jones, Andy", "Chen, Anna", "Goldie, Anna", "others"]
+  date: 2022
+  url: https://arxiv.org/abs/2212.08073
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2212.08073
+
+# ---------------------------------------------------------------------
+#  Avaliação
+# ---------------------------------------------------------------------
+zheng2023judge:
+  type: article
+  title: Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena
+  author: ["Zheng, Lianmin", "Chiang, Wei-Lin", "Sheng, Ying", "Zhuang, Siyuan", "Wu, Zhanghao", "Zhuang, Yonghao", "Lin, Zi", "Li, Zhuohan", "others"]
+  date: 2023
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 36 (Datasets and Benchmarks Track)
+
+jimenez2024:
+  type: article
+  title: "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
+  author: ["Jimenez, Carlos E.", "Yang, John", "Wettig, Alexander", "Yao, Shunyu", "Pei, Kexin", "Press, Ofir", "Narasimhan, Karthik"]
+  date: 2024
+  parent:
+    type: periodical
+    title: International Conference on Learning Representations (ICLR)
+
+liu2024agentbench:
+  type: article
+  title: "AgentBench: Evaluating LLMs as Agents"
+  author: ["Liu, Xiao", "Yu, Hao", "Zhang, Hanchen", "Xu, Yifan", "Lei, Xuanyu", "Lai, Hanyu", "Gu, Yu", "Ding, Hangliang", "others"]
+  date: 2024
+  parent:
+    type: periodical
+    title: International Conference on Learning Representations (ICLR)
+
+cohen1995:
+  type: book
+  title: Empirical Methods for Artificial Intelligence
+  author: ["Cohen, Paul R."]
+  date: 1995
+  publisher: MIT Press
+
+cohen1960:
+  type: article
+  title: A Coefficient of Agreement for Nominal Scales
+  author: ["Cohen, Jacob"]
+  date: 1960
+  page-range: 37-46
+  parent:
+    type: periodical
+    title: Educational and Psychological Measurement
+    volume: 20
+    issue: 1
+
+shadish2002:
+  type: book
+  title: Experimental and Quasi-Experimental Designs for Generalized Causal Inference
+  author: ["Shadish, William R.", "Cook, Thomas D.", "Campbell, Donald T."]
+  date: 2002
+  publisher: Houghton Mifflin
+
+kohavi2020:
+  type: book
+  title: "Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing"
+  author: ["Kohavi, Ron", "Tang, Diane", "Xu, Ya"]
+  date: 2020
+  publisher: Cambridge University Press
+
+wohlin2012:
+  type: book
+  title: Experimentation in Software Engineering
+  author: ["Wohlin, Claes", "Runeson, Per", "Höst, Martin", "Ohlsson, Magnus C.", "Regnell, Björn", "Wesslén, Anders"]
+  date: 2012
+  publisher: Springer
+
+# ---------------------------------------------------------------------
+#  Fontes técnicas da indústria
+# ---------------------------------------------------------------------
+anthropic2024agents:
+  type: web
+  title: Building Effective Agents
+  author: ["Schluntz, Erik", "Zhang, Barry"]
+  date: 2024-12-19
+  url: https://www.anthropic.com/engineering/building-effective-agents
+  parent:
+    type: blog
+    title: Anthropic Engineering
+
+anthropic2024mcp:
+  type: web
+  title: Introducing the Model Context Protocol
+  author: ["Anthropic"]
+  date: 2024-11-25
+  url: https://www.anthropic.com/news/model-context-protocol
+
+mcp2025spec:
+  type: web
+  title: Model Context Protocol — Specification
+  author: ["Model Context Protocol"]
+  date: 2025
+  url: https://modelcontextprotocol.io/specification
+
+anthropic2025context:
+  type: web
+  title: Effective Context Engineering for AI Agents
+  author: ["Anthropic"]
+  date: 2025-09-29
+  url: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+  parent:
+    type: blog
+    title: Anthropic Engineering
+
+anthropic2025multiagent:
+  type: web
+  title: How We Built Our Multi-Agent Research System
+  author: ["Hadfield, Jeremy", "Zhang, Barry", "Lien, Kenneth", "Scholz, Florian", "Fox, Jeremy", "Ford, Daniel"]
+  date: 2025-06-13
+  url: https://www.anthropic.com/engineering/built-multi-agent-research-system
+  parent:
+    type: blog
+    title: Anthropic Engineering
+
+# ---------------------------------------------------------------------
+#  Acréscimos: tokenização e atenção eficiente
+# ---------------------------------------------------------------------
+sennrich2016:
+  type: article
+  title: Neural Machine Translation of Rare Words with Subword Units
+  author: ["Sennrich, Rico", "Haddow, Barry", "Birch, Alexandra"]
+  date: 2016
+  page-range: 1715-1725
+  parent:
+    type: periodical
+    title: Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL)
+
+shazeer2019:
+  type: article
+  title: "Fast Transformer Decoding: One Write-Head is All You Need"
+  author: ["Shazeer, Noam"]
+  date: 2019
+  url: https://arxiv.org/abs/1911.02150
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:1911.02150
+
+ainslie2023:
+  type: article
+  title: "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints"
+  author: ["Ainslie, Joshua", "Lee-Thorp, James", "de Jong, Michiel", "Zemlyanskiy, Yury", "Lebrón, Federico", "Sanghai, Sumit"]
+  date: 2023
+  parent:
+    type: periodical
+    title: Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+
+holtzman2020:
+  type: article
+  title: The Curious Case of Neural Text Degeneration
+  author: ["Holtzman, Ari", "Buys, Jan", "Du, Li", "Forbes, Maxwell", "Choi, Yejin"]
+  date: 2020
+  parent:
+    type: periodical
+    title: International Conference on Learning Representations (ICLR)
+
+olsson2022:
+  type: article
+  title: In-context Learning and Induction Heads
+  author: ["Olsson, Catherine", "Elhage, Nelson", "Nanda, Neel", "Joseph, Nicholas", "DasSarma, Nova", "Henighan, Tom", "Mann, Ben", "Askell, Amanda", "others"]
+  date: 2022
+  url: https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html
+  parent:
+    type: periodical
+    title: Transformer Circuits Thread
+
+golovin2011:
+  type: article
+  title: "Adaptive Submodularity: Theory and Applications in Active Learning and Stochastic Optimization"
+  author: ["Golovin, Daniel", "Krause, Andreas"]
+  date: 2011
+  page-range: 427-486
+  parent:
+    type: periodical
+    title: Journal of Artificial Intelligence Research
+    volume: 42
+
+lin2011:
+  type: article
+  title: A Class of Submodular Functions for Document Summarization
+  author: ["Lin, Hui", "Bilmes, Jeff"]
+  date: 2011
+  page-range: 510-520
+  parent:
+    type: periodical
+    title: Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics (ACL)
+
+hardy1934:
+  type: book
+  title: Inequalities
+  author: ["Hardy, G. H.", "Littlewood, J. E.", "Pólya, G."]
+  date: 1934
+  publisher: Cambridge University Press
+
+fiat1991:
+  type: article
+  title: Competitive Paging Algorithms
+  author: ["Fiat, Amos", "Karp, Richard M.", "Luby, Michael", "McGeoch, Lyle A.", "Sleator, Daniel D.", "Young, Neal E."]
+  date: 1991
+  page-range: 685-699
+  parent:
+    type: periodical
+    title: Journal of Algorithms
+    volume: 12
+    issue: 4
+
+borodin1998:
+  type: book
+  title: Online Computation and Competitive Analysis
+  author: ["Borodin, Allan", "El-Yaniv, Ran"]
+  date: 1998
+  publisher: Cambridge University Press
+
+denning1968thrashing:
+  type: article
+  title: "Thrashing: Its Causes and Prevention"
+  author: ["Denning, Peter J."]
+  date: 1968
+  page-range: 915-922
+  parent:
+    type: periodical
+    title: "Proceedings of the AFIPS Fall Joint Computer Conference (FJCC '68)"
+
+# ---------------------------------------------------------------------
+#  Acréscimos após a fusão dos planos
+# ---------------------------------------------------------------------
+bernstein1966:
+  type: article
+  title: Analysis of Programs for Parallel Processing
+  author: ["Bernstein, Arthur J."]
+  date: 1966
+  page-range: 757-763
+  parent:
+    type: periodical
+    title: IEEE Transactions on Electronic Computers
+    volume: EC-15
+    issue: 5
+
+rice1953:
+  type: article
+  title: Classes of Recursively Enumerable Sets and Their Decision Problems
+  author: ["Rice, Henry Gordon"]
+  date: 1953
+  page-range: 358-366
+  parent:
+    type: periodical
+    title: Transactions of the American Mathematical Society
+    volume: 74
+    issue: 2
+
+chandy1985:
+  type: article
+  title: "Distributed Snapshots: Determining Global States of Distributed Systems"
+  author: ["Chandy, K. Mani", "Lamport, Leslie"]
+  date: 1985
+  page-range: 63-75
+  parent:
+    type: periodical
+    title: ACM Transactions on Computer Systems
+    volume: 3
+    issue: 1
+
+mattern1989:
+  type: chapter
+  title: Virtual Time and Global States of Distributed Systems
+  author: ["Mattern, Friedemann"]
+  date: 1989
+  page-range: 215-226
+  parent:
+    type: book
+    title: Parallel and Distributed Algorithms
+    editor: ["Cosnard, Michel", "Quinton, Patrice", "Raynal, Michel", "Robert, Yves"]
+    publisher: North-Holland
+
+fidge1988:
+  type: article
+  title: Timestamps in Message-Passing Systems That Preserve the Partial Ordering
+  author: ["Fidge, Colin J."]
+  date: 1988
+  page-range: 56-66
+  parent:
+    type: periodical
+    title: Proceedings of the 11th Australian Computer Science Conference
+    volume: 10
+    issue: 1
+
+herlihy1990:
+  type: article
+  title: "Linearizability: A Correctness Condition for Concurrent Objects"
+  author: ["Herlihy, Maurice P.", "Wing, Jeannette M."]
+  date: 1990
+  page-range: 463-492
+  parent:
+    type: periodical
+    title: ACM Transactions on Programming Languages and Systems
+    volume: 12
+    issue: 3
+
+kleppmann2017:
+  type: book
+  title: Designing Data-Intensive Applications
+  author: ["Kleppmann, Martin"]
+  date: 2017
+  publisher: O'Reilly Media
+
+verma2015:
+  type: article
+  title: Large-Scale Cluster Management at Google with Borg
+  author: ["Verma, Abhishek", "Pedrosa, Luis", "Korupolu, Madhukar", "Oppenheimer, David", "Tune, Eric", "Wilkes, John"]
+  date: 2015
+  page-range: 18:1-18:17
+  parent:
+    type: periodical
+    title: Proceedings of the Tenth European Conference on Computer Systems (EuroSys)
+
+lampson1992:
+  type: article
+  title: "Authentication in Distributed Systems: Theory and Practice"
+  author: ["Lampson, Butler", "Abadi, Martín", "Burrows, Michael", "Wobber, Edward"]
+  date: 1992
+  page-range: 265-310
+  parent:
+    type: periodical
+    title: ACM Transactions on Computer Systems
+    volume: 10
+    issue: 4
+
+abadi1993:
+  type: article
+  title: A Calculus for Access Control in Distributed Systems
+  author: ["Abadi, Martín", "Burrows, Michael", "Lampson, Butler", "Plotkin, Gordon"]
+  date: 1993
+  page-range: 706-734
+  parent:
+    type: periodical
+    title: ACM Transactions on Programming Languages and Systems
+    volume: 15
+    issue: 4
+
+pang2019:
+  type: article
+  title: "Zanzibar: Google's Consistent, Global Authorization System"
+  author: ["Pang, Ruoming", "Cáceres, Ramón", "Burrows, Mike", "Chen, Zhifeng", "Dave, Pratik", "Germer, Nathan", "Golynski, Alexander", "Graney, Kevin", "others"]
+  date: 2019
+  page-range: 33-46
+  parent:
+    type: periodical
+    title: Proceedings of the 2019 USENIX Annual Technical Conference (ATC)
+
+birgisson2014:
+  type: article
+  title: "Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud"
+  author: ["Birgisson, Arnar", "Politz, Joe Gibbs", "Erlingsson, Úlfar", "Taly, Ankur", "Vrable, Michael", "Lentczner, Mark"]
+  date: 2014
+  parent:
+    type: periodical
+    title: Network and Distributed System Security Symposium (NDSS)
+
+samuel2010:
+  type: article
+  title: Survivable Key Compromise in Software Update Systems
+  author: ["Samuel, Justin", "Mathewson, Nick", "Cappos, Justin", "Dingledine, Roger"]
+  date: 2010
+  page-range: 61-72
+  parent:
+    type: periodical
+    title: Proceedings of the 17th ACM Conference on Computer and Communications Security (CCS)
+
+clark1987:
+  type: article
+  title: A Comparison of Commercial and Military Computer Security Policies
+  author: ["Clark, David D.", "Wilson, David R."]
+  date: 1987
+  page-range: 184-194
+  parent:
+    type: periodical
+    title: Proceedings of the 1987 IEEE Symposium on Security and Privacy
+
+gray1993:
+  type: book
+  title: "Transaction Processing: Concepts and Techniques"
+  author: ["Gray, Jim", "Reuter, Andreas"]
+  date: 1993
+  publisher: Morgan Kaufmann
+
+garciamolina1987:
+  type: article
+  title: Sagas
+  author: ["Garcia-Molina, Hector", "Salem, Kenneth"]
+  date: 1987
+  page-range: 249-259
+  parent:
+    type: periodical
+    title: Proceedings of the 1987 ACM SIGMOD International Conference on Management of Data
+
+helland2012:
+  type: article
+  title: Idempotence Is Not a Medical Condition
+  author: ["Helland, Pat"]
+  date: 2012
+  page-range: 56-65
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    volume: 55
+    issue: 5
+
+beyer2016:
+  type: book
+  title: "Site Reliability Engineering: How Google Runs Production Systems"
+  editor: ["Beyer, Betsy", "Jones, Chris", "Petoff, Jennifer", "Murphy, Niall Richard"]
+  date: 2016
+  publisher: O'Reilly Media
+
+humble2010:
+  type: book
+  title: "Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation"
+  author: ["Humble, Jez", "Farley, David"]
+  date: 2010
+  publisher: Addison-Wesley
+
+fowler1999:
+  type: book
+  title: "Refactoring: Improving the Design of Existing Code"
+  author: ["Fowler, Martin"]
+  date: 1999
+  publisher: Addison-Wesley
+
+wilson1927:
+  type: article
+  title: Probable Inference, the Law of Succession, and Statistical Inference
+  author: ["Wilson, Edwin B."]
+  date: 1927
+  page-range: 209-212
+  parent:
+    type: periodical
+    title: Journal of the American Statistical Association
+    volume: 22
+    issue: 158
+
+hanley1983:
+  type: article
+  title: "If Nothing Goes Wrong, Is Everything All Right? Interpreting Zero Numerators"
+  author: ["Hanley, James A.", "Lippman-Hand, Abby"]
+  date: 1983
+  page-range: 1743-1745
+  parent:
+    type: periodical
+    title: JAMA
+    volume: 249
+    issue: 13
+
+harrison1976:
+  type: article
+  title: Protection in Operating Systems
+  author: ["Harrison, Michael A.", "Ruzzo, Walter L.", "Ullman, Jeffrey D."]
+  date: 1976
+  page-range: 461-471
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    volume: 19
+    issue: 8
+
+lipton1977:
+  type: article
+  title: A Linear Time Algorithm for Deciding Subject Security
+  author: ["Lipton, Richard J.", "Snyder, Lawrence"]
+  date: 1977
+  page-range: 455-464
+  parent:
+    type: periodical
+    title: Journal of the ACM
+    volume: 24
+    issue: 3
+
+nissenbaum2004:
+  type: article
+  title: Privacy as Contextual Integrity
+  author: ["Nissenbaum, Helen"]
+  date: 2004
+  page-range: 119-157
+  parent:
+    type: periodical
+    title: Washington Law Review
+    volume: 79
+    issue: 1
+
+vanderaalst1998:
+  type: article
+  title: The Application of Petri Nets to Workflow Management
+  author: ["van der Aalst, Wil M. P."]
+  date: 1998
+  page-range: 21-66
+  parent:
+    type: periodical
+    title: Journal of Circuits, Systems, and Computers
+    volume: 8
+    issue: 1
+
+dolstra2004:
+  type: article
+  title: "Nix: A Safe and Policy-Free System for Software Deployment"
+  author: ["Dolstra, Eelco", "de Jonge, Merijn", "Visser, Eelco"]
+  date: 2004
+  page-range: 79-92
+  parent:
+    type: periodical
+    title: Proceedings of the 18th Large Installation System Administration Conference (LISA)
+
+nosek2018:
+  type: article
+  title: The Preregistration Revolution
+  author: ["Nosek, Brian A.", "Ebersole, Charles R.", "DeHaven, Alexander C.", "Mellor, David T."]
+  date: 2018
+  page-range: 2600-2606
+  parent:
+    type: periodical
+    title: Proceedings of the National Academy of Sciences
+    volume: 115
+    issue: 11
+
+schon1983:
+  type: book
+  title: "The Reflective Practitioner: How Professionals Think in Action"
+  author: ["Schön, Donald A."]
+  date: 1983
+  publisher: Basic Books
+
+tishby1999:
+  type: article
+  title: The Information Bottleneck Method
+  author: ["Tishby, Naftali", "Pereira, Fernando C.", "Bialek, William"]
+  date: 1999
+  page-range: 368-377
+  parent:
+    type: periodical
+    title: Proceedings of the 37th Annual Allerton Conference on Communication, Control, and Computing
+
+rissanen1978:
+  type: article
+  title: Modeling by Shortest Data Description
+  author: ["Rissanen, Jorma"]
+  date: 1978
+  page-range: 465-471
+  parent:
+    type: periodical
+    title: Automatica
+    volume: 14
+    issue: 5
+
+vanemden1976:
+  type: article
+  title: The Semantics of Predicate Logic as a Programming Language
+  author: ["van Emden, Maarten H.", "Kowalski, Robert A."]
+  date: 1976
+  page-range: 733-742
+  parent:
+    type: periodical
+    title: Journal of the ACM
+    volume: 23
+    issue: 4
+
+abiteboul1995:
+  type: book
+  title: Foundations of Databases
+  author: ["Abiteboul, Serge", "Hull, Richard", "Vianu, Victor"]
+  date: 1995
+  publisher: Addison-Wesley
+
+vardi1982:
+  type: article
+  title: The Complexity of Relational Query Languages
+  author: ["Vardi, Moshe Y."]
+  date: 1982
+  page-range: 137-146
+  parent:
+    type: periodical
+    title: Proceedings of the 14th Annual ACM Symposium on Theory of Computing (STOC)
+
+chandra1980:
+  type: article
+  title: Computable Queries for Relational Data Bases
+  author: ["Chandra, Ashok K.", "Harel, David"]
+  date: 1980
+  page-range: 156-178
+  parent:
+    type: periodical
+    title: Journal of Computer and System Sciences
+    volume: 21
+    issue: 2
+
+chen1998:
+  type: report
+  title: "Metamorphic Testing: A New Approach for Generating Next Test Cases"
+  author: ["Chen, Tsong Yueh", "Cheung, Shing Chi", "Yiu, Siu Ming"]
+  date: 1998
+  serial-number: Technical Report HKUST-CS98-01
+  publisher: Hong Kong University of Science and Technology
+
+chen2018:
+  type: article
+  title: "Metamorphic Testing: A Review of Challenges and Opportunities"
+  author: ["Chen, Tsong Yueh", "Kuo, Fei-Ching", "Liu, Huai", "Poon, Pak-Lok", "Towey, Dave", "Tse, T. H.", "Zhou, Zhi Quan"]
+  date: 2018
+  page-range: 4:1-4:27
+  parent:
+    type: periodical
+    title: ACM Computing Surveys
+    volume: 51
+    issue: 1
+
+milner1989:
+  type: book
+  title: Communication and Concurrency
+  author: ["Milner, Robin"]
+  date: 1989
+  publisher: Prentice Hall
+
+lamport2002:
+  type: book
+  title: "Specifying Systems: The TLA+ Language and Tools for Hardware and Software Engineers"
+  author: ["Lamport, Leslie"]
+  date: 2002
+  publisher: Addison-Wesley
+
+jackson2006:
+  type: book
+  title: "Software Abstractions: Logic, Language, and Analysis"
+  author: ["Jackson, Daniel"]
+  date: 2006
+  publisher: MIT Press
+
+sigelman2010:
+  type: report
+  title: "Dapper, a Large-Scale Distributed Systems Tracing Infrastructure"
+  author: ["Sigelman, Benjamin H.", "Barroso, Luiz André", "Burrows, Mike", "Stephenson, Pat", "Plakal, Manoj", "Beaver, Donald", "Jaspan, Saul", "Shanbhag, Chandan"]
+  date: 2010
+  serial-number: dapper-2010-1
+  publisher: Google
+
+yehudai2025:
+  type: article
+  title: "Survey on Evaluation of LLM-based Agents"
+  author: ["Yehudai, Asaf", "Eden, Lilach", "Li, Alan", "Uziel, Guy", "Zhao, Yilun", "Bar-Haim, Roy", "Cohan, Arman", "Shmueli-Scheuer, Michal"]
+  date: 2025
+  url: https://arxiv.org/abs/2503.16416
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2503.16416
+
+strathern1997:
+  type: article
+  title: "'Improving Ratings': Audit in the British University System"
+  author: ["Strathern, Marilyn"]
+  date: 1997
+  page-range: 305-321
+  parent:
+    type: periodical
+    title: European Review
+    volume: 5
+    issue: 3
+
+lakatos1978:
+  type: book
+  title: "The Methodology of Scientific Research Programmes: Philosophical Papers, Volume 1"
+  author: ["Lakatos, Imre"]
+  editor: ["Worrall, John", "Currie, Gregory"]
+  date: 1978
+  publisher: Cambridge University Press
+
+agresti1998:
+  type: article
+  title: "Approximate Is Better than \"Exact\" for Interval Estimation of Binomial Proportions"
+  author: ["Agresti, Alan", "Coull, Brent A."]
+  date: 1998
+  page-range: 119-126
+  parent:
+    type: periodical
+    title: The American Statistician
+    volume: 52
+    issue: 2
+
+huang2024selfcorrect:
+  type: article
+  title: Large Language Models Cannot Self-Correct Reasoning Yet
+  author: ["Huang, Jie", "Chen, Xinyun", "Mishra, Swaroop", "Zheng, Huaixiu Steven", "Yu, Adams Wei", "Song, Xinying", "Zhou, Denny"]
+  date: 2024
+  parent:
+    type: periodical
+    title: International Conference on Learning Representations (ICLR)
+
+kamoi2024:
+  type: article
+  title: "When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs"
+  author: ["Kamoi, Ryo", "Zhang, Yusen", "Zhang, Nan", "Han, Jiawei", "Zhang, Rui"]
+  date: 2024
+  page-range: 1417-1440
+  parent:
+    type: periodical
+    title: Transactions of the Association for Computational Linguistics
+    volume: 12
+
+gray1989:
+  type: article
+  title: "Leases: An Efficient Fault-Tolerant Mechanism for Distributed File Cache Consistency"
+  author: ["Gray, Cary G.", "Cheriton, David R."]
+  date: 1989
+  page-range: 202-210
+  parent:
+    type: periodical
+    title: Proceedings of the 12th ACM Symposium on Operating Systems Principles (SOSP)
+
+harrison1978:
+  type: chapter
+  title: Monotonic Protection Systems
+  author: ["Harrison, Michael A.", "Ruzzo, Walter L."]
+  date: 1978
+  page-range: 337-365
+  parent:
+    type: book
+    title: Foundations of Secure Computation
+    editor: ["DeMillo, Richard A.", "Dobkin, David P.", "Jones, Anita K.", "Lipton, Richard J."]
+    publisher: Academic Press
+
+jones1976:
+  type: article
+  title: A Linear Time Algorithm for Deciding Security
+  author: ["Jones, Anita K.", "Lipton, Richard J.", "Snyder, Lawrence"]
+  date: 1976
+  page-range: 33-41
+  parent:
+    type: periodical
+    title: 17th Annual Symposium on Foundations of Computer Science (FOCS)
+
+debenedetti2025camel:
+  type: article
+  title: Defeating Prompt Injections by Design
+  author: ["Debenedetti, Edoardo", "Shumailov, Ilia", "Fan, Tianqi", "Hayes, Jamie", "Carlini, Nicholas", "Fabian, Daniel", "Kern, Christoph", "Shi, Chongyang", "Terzis, Andreas", "Tramèr, Florian"]
+  date: 2025
+  url: https://arxiv.org/abs/2503.18813
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2503.18813
+
+beurerkellner2025:
+  type: article
+  title: Design Patterns for Securing LLM Agents against Prompt Injections
+  author: ["Beurer-Kellner, Luca", "Buesser, Beat", "Creţu, Ana-Maria", "Debenedetti, Edoardo", "Dobos, Daniel", "Fabian, Daniel", "others"]
+  date: 2025
+  url: https://arxiv.org/abs/2506.08837
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2506.08837
+
+debenedetti2024agentdojo:
+  type: article
+  title: "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents"
+  author: ["Debenedetti, Edoardo", "Zhang, Jie", "Balunović, Mislav", "Beurer-Kellner, Luca", "Fischer, Marc", "Tramèr, Florian"]
+  date: 2024
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 37 (Datasets and Benchmarks Track)
+
+cemri2025:
+  type: article
+  title: Why Do Multi-Agent LLM Systems Fail?
+  author: ["Cemri, Mert", "Pan, Melissa Z.", "Yang, Shuyi", "Agrawal, Lakshya A.", "Chopra, Bhavya", "Tiwari, Rishabh", "Keutzer, Kurt", "Parameswaran, Aditya", "Klein, Dan", "Ramchandran, Kannan", "Zaharia, Matei", "Gonzalez, Joseph E.", "Stoica, Ion"]
+  date: 2025
+  url: https://arxiv.org/abs/2503.13657
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2503.13657
+
+cohen1991teamwork:
+  type: article
+  title: Teamwork
+  author: ["Cohen, Philip R.", "Levesque, Hector J."]
+  date: 1991
+  page-range: 487-512
+  parent:
+    type: periodical
+    title: Noûs
+    volume: 25
+    issue: 4
+
+demillo1978:
+  type: article
+  title: "Hints on Test Data Selection: Help for the Practicing Programmer"
+  author: ["DeMillo, Richard A.", "Lipton, Richard J.", "Sayward, Frederick G."]
+  date: 1978
+  page-range: 34-41
+  parent:
+    type: periodical
+    title: Computer
+    volume: 11
+    issue: 4
+
+goodhart1975:
+  type: chapter
+  title: "Problems of Monetary Management: The U.K. Experience"
+  author: ["Goodhart, Charles A. E."]
+  date: 1975
+  parent:
+    type: book
+    title: Papers in Monetary Economics, Volume I
+    publisher: Reserve Bank of Australia
+
+mcnemar1947:
+  type: article
+  title: Note on the Sampling Error of the Difference between Correlated Proportions or Percentages
+  author: ["McNemar, Quinn"]
+  date: 1947
+  page-range: 153-157
+  parent:
+    type: periodical
+    title: Psychometrika
+    volume: 12
+    issue: 2
+
+yao2024taubench:
+  type: article
+  title: "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains"
+  author: ["Yao, Shunyu", "Shinn, Noah", "Razavi, Pedram", "Narasimhan, Karthik"]
+  date: 2024
+  url: https://arxiv.org/abs/2406.12045
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2406.12045
+
+fischer1985:
+  type: article
+  title: Impossibility of Distributed Consensus with One Faulty Process
+  author: ["Fischer, Michael J.", "Lynch, Nancy A.", "Paterson, Michael S."]
+  date: 1985
+  page-range: 374-382
+  parent:
+    type: periodical
+    title: Journal of the ACM
+    volume: 32
+    issue: 2
+
+lamport1979:
+  type: article
+  title: How to Make a Multiprocessor Computer That Correctly Executes Multiprocess Programs
+  author: ["Lamport, Leslie"]
+  date: 1979
+  page-range: 690-691
+  parent:
+    type: periodical
+    title: IEEE Transactions on Computers
+    volume: C-28
+    issue: 9
+
+brewer2012:
+  type: article
+  title: "CAP Twelve Years Later: How the \"Rules\" Have Changed"
+  author: ["Brewer, Eric"]
+  date: 2012
+  page-range: 23-29
+  parent:
+    type: periodical
+    title: Computer
+    volume: 45
+    issue: 2
+
+hevner2004:
+  type: article
+  title: Design Science in Information Systems Research
+  author: ["Hevner, Alan R.", "March, Salvatore T.", "Park, Jinsoo", "Ram, Sudha"]
+  date: 2004
+  page-range: 75-105
+  parent:
+    type: periodical
+    title: MIS Quarterly
+    volume: 28
+    issue: 1
+
+runeson2009:
+  type: article
+  title: Guidelines for Conducting and Reporting Case Study Research in Software Engineering
+  author: ["Runeson, Per", "Höst, Martin"]
+  date: 2009
+  page-range: 131-164
+  parent:
+    type: periodical
+    title: Empirical Software Engineering
+    volume: 14
+    issue: 2
+
+parasuraman1997:
+  type: article
+  title: "Humans and Automation: Use, Misuse, Disuse, Abuse"
+  author: ["Parasuraman, Raja", "Riley, Victor"]
+  date: 1997
+  page-range: 230-253
+  parent:
+    type: periodical
+    title: Human Factors
+    volume: 39
+    issue: 2
+
+lee2004trust:
+  type: article
+  title: "Trust in Automation: Designing for Appropriate Reliance"
+  author: ["Lee, John D.", "See, Katrina A."]
+  date: 2004
+  page-range: 50-80
+  parent:
+    type: periodical
+    title: Human Factors
+    volume: 46
+    issue: 1
+
+howell2000:
+  type: article
+  title: End-to-End Authorization
+  author: ["Howell, Jon", "Kotz, David"]
+  date: 2000
+  page-range: 151-164
+  parent:
+    type: periodical
+    title: Proceedings of the 4th Symposium on Operating Systems Design and Implementation (OSDI)
+
+haviv2022:
+  type: article
+  title: Transformer Language Models without Positional Encodings Still Learn Positional Information
+  author: ["Haviv, Adi", "Ram, Ori", "Press, Ofir", "Izsak, Peter", "Levy, Omer"]
+  date: 2022
+  page-range: 1382-1390
+  parent:
+    type: periodical
+    title: "Findings of the Association for Computational Linguistics: EMNLP 2022"
+
+stevens2017:
+  type: article
+  title: The First Collision for Full SHA-1
+  author: ["Stevens, Marc", "Bursztein, Elie", "Karpman, Pierre", "Albertini, Ange", "Markov, Yarik"]
+  date: 2017
+  page-range: 570-596
+  parent:
+    type: periodical
+    title: "Advances in Cryptology — CRYPTO 2017, Lecture Notes in Computer Science"
+    volume: 10401
+
+sabelfeld2003:
+  type: article
+  title: Language-Based Information-Flow Security
+  author: ["Sabelfeld, Andrei", "Myers, Andrew C."]
+  date: 2003
+  page-range: 5-19
+  parent:
+    type: periodical
+    title: IEEE Journal on Selected Areas in Communications
+    volume: 21
+    issue: 1
+
+sabelfeld2009:
+  type: article
+  title: "Declassification: Dimensions and Principles"
+  author: ["Sabelfeld, Andrei", "Sands, David"]
+  date: 2009
+  page-range: 517-548
+  parent:
+    type: periodical
+    title: Journal of Computer Security
+    volume: 17
+    issue: 5
+
+katsuno1991:
+  type: article
+  title: On the Difference between Updating a Knowledge Base and Revising It
+  author: ["Katsuno, Hirofumi", "Mendelzon, Alberto O."]
+  date: 1991
+  page-range: 387-394
+  parent:
+    type: periodical
+    title: Proceedings of the 2nd International Conference on Principles of Knowledge Representation and Reasoning (KR)
+
+hansson1999:
+  type: book
+  title: "A Textbook of Belief Dynamics: Theory Change and Database Updating"
+  author: ["Hansson, Sven Ove"]
+  date: 1999
+  publisher: Kluwer Academic Publishers
+
+dinur2014:
+  type: article
+  title: Analytical Approach to Parallel Repetition
+  author: ["Dinur, Irit", "Steurer, David"]
+  date: 2014
+  page-range: 624-633
+  parent:
+    type: periodical
+    title: Proceedings of the 46th Annual ACM Symposium on Theory of Computing (STOC)
+
+johnson1974:
+  type: article
+  title: Approximation Algorithms for Combinatorial Problems
+  author: ["Johnson, David S."]
+  date: 1974
+  page-range: 256-278
+  parent:
+    type: periodical
+    title: Journal of Computer and System Sciences
+    volume: 9
+    issue: 3
+
+chvatal1979:
+  type: article
+  title: A Greedy Heuristic for the Set-Covering Problem
+  author: ["Chvátal, Václav"]
+  date: 1979
+  page-range: 233-235
+  parent:
+    type: periodical
+    title: Mathematics of Operations Research
+    volume: 4
+    issue: 3
+
+minoux1978:
+  type: chapter
+  title: Accelerated Greedy Algorithms for Maximizing Submodular Set Functions
+  author: ["Minoux, Michel"]
+  date: 1978
+  page-range: 234-243
+  parent:
+    type: book
+    title: "Optimization Techniques (Lecture Notes in Control and Information Sciences, vol. 7)"
+    publisher: Springer
+
+johnson1983:
+  type: article
+  title: On Knapsacks, Partitions, and a New Dynamic Programming Technique for Trees
+  author: ["Johnson, David S.", "Niemi, K. A."]
+  date: 1983
+  page-range: 1-14
+  parent:
+    type: periodical
+    title: Mathematics of Operations Research
+    volume: 8
+    issue: 1
+
+holm2001:
+  type: article
+  title: Poly-Logarithmic Deterministic Fully-Dynamic Algorithms for Connectivity, Minimum Spanning Tree, 2-Edge, and Biconnectivity
+  author: ["Holm, Jacob", "de Lichtenberg, Kristian", "Thorup, Mikkel"]
+  date: 2001
+  page-range: 723-760
+  parent:
+    type: periodical
+    title: Journal of the ACM
+    volume: 48
+    issue: 4
+
+denning1972:
+  type: article
+  title: Properties of the Working-Set Model
+  author: ["Denning, Peter J.", "Schwartz, Stuart C."]
+  date: 1972
+  page-range: 191-198
+  parent:
+    type: periodical
+    title: Communications of the ACM
+    volume: 15
+    issue: 3
+
+young2002:
+  type: article
+  title: On-Line File Caching
+  author: ["Young, Neal E."]
+  date: 2002
+  page-range: 371-383
+  parent:
+    type: periodical
+    title: Algorithmica
+    volume: 33
+    issue: 3
+
+chrobak2012:
+  type: article
+  title: Caching Is Hard — Even in the Fault Model
+  author: ["Chrobak, Marek", "Woeginger, Gerhard J.", "Makino, Kazuhisa", "Xu, Haifeng"]
+  date: 2012
+  page-range: 781-794
+  parent:
+    type: periodical
+    title: Algorithmica
+    volume: 63
+    issue: 4
+
+dalvi2007:
+  type: article
+  title: Efficient Query Evaluation on Probabilistic Databases
+  author: ["Dalvi, Nilesh", "Suciu, Dan"]
+  date: 2007
+  page-range: 523-544
+  parent:
+    type: periodical
+    title: The VLDB Journal
+    volume: 16
+    issue: 4
+
+geerts2010:
+  type: article
+  title: On Database Query Languages for K-Relations
+  author: ["Geerts, Floris", "Poggi, Antonella"]
+  date: 2010
+  page-range: 173-185
+  parent:
+    type: periodical
+    title: Journal of Applied Logic
+    volume: 8
+    issue: 2
+
+apt1988:
+  type: chapter
+  title: Towards a Theory of Declarative Knowledge
+  author: ["Apt, Krzysztof R.", "Blair, Howard A.", "Walker, Adrian"]
+  date: 1988
+  page-range: 89-148
+  parent:
+    type: book
+    title: Foundations of Deductive Databases and Logic Programming
+    editor: ["Minker, Jack"]
+    publisher: Morgan Kaufmann
+
+motro1989:
+  type: article
+  title: Integrity = Validity + Completeness
+  author: ["Motro, Amihai"]
+  date: 1989
+  page-range: 480-502
+  parent:
+    type: periodical
+    title: ACM Transactions on Database Systems
+    volume: 14
+    issue: 4
+
+levy1996:
+  type: article
+  title: Obtaining Complete Answers from Incomplete Databases
+  author: ["Levy, Alon Y."]
+  date: 1996
+  page-range: 402-412
+  parent:
+    type: periodical
+    title: Proceedings of the 22nd International Conference on Very Large Data Bases (VLDB)
+
+fellegi1969:
+  type: article
+  title: A Theory for Record Linkage
+  author: ["Fellegi, Ivan P.", "Sunter, Alan B."]
+  date: 1969
+  page-range: 1183-1210
+  parent:
+    type: periodical
+    title: Journal of the American Statistical Association
+    volume: 64
+    issue: 328
+
+halpin2010:
+  type: article
+  title: "When owl:sameAs Isn't the Same: An Analysis of Identity in Linked Data"
+  author: ["Halpin, Harry", "Hayes, Patrick J.", "McCusker, James P.", "McGuinness, Deborah L.", "Thompson, Henry S."]
+  date: 2010
+  page-range: 305-320
+  parent:
+    type: periodical
+    title: "The Semantic Web — ISWC 2010, Lecture Notes in Computer Science"
+    volume: 6496
+
+halpern1990:
+  type: article
+  title: Knowledge and Common Knowledge in a Distributed Environment
+  author: ["Halpern, Joseph Y.", "Moses, Yoram"]
+  date: 1990
+  page-range: 549-587
+  parent:
+    type: periodical
+    title: Journal of the ACM
+    volume: 37
+    issue: 3
+
+kulkarni2014:
+  type: article
+  title: Logical Physical Clocks
+  author: ["Kulkarni, Sandeep S.", "Demirbas, Murat", "Madappa, Deepak", "Avva, Bharadwaj", "Leone, Marcelo"]
+  date: 2014
+  page-range: 17-32
+  parent:
+    type: periodical
+    title: "Principles of Distributed Systems — OPODIS 2014, Lecture Notes in Computer Science"
+    volume: 8878
+
+snodgrass1999:
+  type: book
+  title: Developing Time-Oriented Database Applications in SQL
+  author: ["Snodgrass, Richard T."]
+  date: 1999
+  publisher: Morgan Kaufmann
+
+lamb2022:
+  type: article
+  title: "Reproducible Builds: Increasing the Integrity of Software Supply Chains"
+  author: ["Lamb, Chris", "Zacchiroli, Stefano"]
+  date: 2022
+  page-range: 62-70
+  parent:
+    type: periodical
+    title: IEEE Software
+    volume: 39
+    issue: 2
+
+rashkin2023:
+  type: article
+  title: Measuring Attribution in Natural Language Generation Models
+  author: ["Rashkin, Hannah", "Nikolaev, Vitaly", "Lamm, Matthew", "Aroyo, Lora", "Collins, Michael", "Das, Dipanjan", "Petrov, Slav", "Tomar, Gaurav Singh", "Turc, Iulia", "Reitter, David"]
+  date: 2023
+  page-range: 777-840
+  parent:
+    type: periodical
+    title: Computational Linguistics
+    volume: 49
+    issue: 4
+
+sclar2024:
+  type: article
+  title: "Quantifying Language Models' Sensitivity to Spurious Features in Prompt Design or: How I Learned to Start Worrying about Prompt Formatting"
+  author: ["Sclar, Melanie", "Choi, Yejin", "Tsvetkov, Yulia", "Suhr, Alane"]
+  date: 2024
+  parent:
+    type: periodical
+    title: International Conference on Learning Representations (ICLR)
+
+maharana2024:
+  type: article
+  title: Evaluating Very Long-Term Conversational Memory of LLM Agents
+  author: ["Maharana, Adyasha", "Lee, Dong-Ho", "Tulyakov, Sergey", "Bansal, Mohit", "Barbieri, Francesco", "Fang, Yuwei"]
+  date: 2024
+  parent:
+    type: periodical
+    title: Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL)
+
+chen2023pi:
+  type: article
+  title: Extending Context Window of Large Language Models via Positional Interpolation
+  author: ["Chen, Shouyuan", "Wong, Sherman", "Chen, Liangjian", "Tian, Yuandong"]
+  date: 2023
+  url: https://arxiv.org/abs/2306.15595
+  parent:
+    type: periodical
+    title: arXiv preprint arXiv:2306.15595
+
+peng2024yarn:
+  type: article
+  title: "YaRN: Efficient Context Window Extension of Large Language Models"
+  author: ["Peng, Bowen", "Quesnelle, Jeffrey", "Fan, Honglu", "Shippole, Enrico"]
+  date: 2024
+  parent:
+    type: periodical
+    title: International Conference on Learning Representations (ICLR)
+
+zhang2023h2o:
+  type: article
+  title: "H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models"
+  author: ["Zhang, Zhenyu", "Sheng, Ying", "Zhou, Tianyi", "Chen, Tianlong", "Zheng, Lianmin", "Cai, Ruisi", "others"]
+  date: 2023
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 36 (NeurIPS)
+
+li2024snapkv:
+  type: article
+  title: "SnapKV: LLM Knows What You Are Looking for Before Generation"
+  author: ["Li, Yuhong", "Huang, Yingbing", "Yang, Bowen", "others"]
+  date: 2024
+  parent:
+    type: periodical
+    title: Advances in Neural Information Processing Systems 37 (NeurIPS)
+
+holm1979:
+  type: article
+  title: A Simple Sequentially Rejective Multiple Test Procedure
+  author: ["Holm, Sture"]
+  date: 1979
+  page-range: 65-70
+  parent:
+    type: periodical
+    title: Scandinavian Journal of Statistics
+    volume: 6
+    issue: 2
+
+hoeffding1963:
+  type: article
+  title: Probability Inequalities for Sums of Bounded Random Variables
+  author: ["Hoeffding, Wassily"]
+  date: 1963
+  page-range: 13-30
+  serial-number:
+    doi: 10.1080/01621459.1963.10500830
+  parent:
+    type: periodical
+    title: Journal of the American Statistical Association
+    volume: 58
+    issue: 301
+
+kish1965:
+  type: book
+  title: Survey Sampling
+  author: ["Kish, Leslie"]
+  date: 1965
+  publisher: John Wiley & Sons
+  location: New York
+
+lamport1998:
+  type: article
+  title: The Part-Time Parliament
+  author: ["Lamport, Leslie"]
+  date: 1998
+  page-range: 133-169
+  serial-number:
+    doi: 10.1145/279227.279229
+  parent:
+    type: periodical
+    title: ACM Transactions on Computer Systems
+    volume: 16
+    issue: 2
+
+ongaro2014:
+  type: article
+  title: "In Search of an Understandable Consensus Algorithm"
+  author: ["Ongaro, Diego", "Ousterhout, John"]
+  date: 2014
+  page-range: 305-319
+  parent:
+    type: periodical
+    title: Proceedings of the USENIX Annual Technical Conference (USENIX ATC)
+
+dwork1988:
+  type: article
+  title: Consensus in the Presence of Partial Synchrony
+  author: ["Dwork, Cynthia", "Lynch, Nancy", "Stockmeyer, Larry"]
+  date: 1988
+  page-range: 288-323
+  serial-number:
+    doi: 10.1145/42282.42283
+  parent:
+    type: periodical
+    title: Journal of the ACM
+    volume: 35
+    issue: 2
+
+ahamad1995:
+  type: article
+  title: "Causal Memory: Definitions, Implementation, and Programming"
+  author: ["Ahamad, Mustaque", "Neiger, Gil", "Burns, James E.", "Kohli, Prince", "Hutto, Phillip W."]
+  date: 1995
+  page-range: 37-49
+  serial-number:
+    doi: 10.1007/BF01784241
+  parent:
+    type: periodical
+    title: Distributed Computing
+    volume: 9
+    issue: 1
+
+lloyd2011:
+  type: article
+  title: "Don't Settle for Eventual: Scalable Causal Consistency for Wide-Area Storage with COPS"
+  author: ["Lloyd, Wyatt", "Freedman, Michael J.", "Kaminsky, Michael", "Andersen, David G."]
+  date: 2011
+  page-range: 401-416
+  serial-number:
+    doi: 10.1145/2043556.2043593
+  parent:
+    type: periodical
+    title: Proceedings of the 23rd ACM Symposium on Operating Systems Principles (SOSP)
+
+gray1978:
+  type: chapter
+  title: Notes on Data Base Operating Systems
+  author: ["Gray, Jim N."]
+  date: 1978
+  page-range: 393-481
+  parent:
+    type: book
+    title: "Operating Systems: An Advanced Course"
+    editor: ["Bayer, Rudolf", "Graham, Robert M.", "Seegmüller, Gerhard"]
+    publisher: Springer
+    location: Berlin
+    volume: 60
+
+lovasz1975:
+  type: article
+  title: On the Ratio of Optimal Integral and Fractional Covers
+  author: ["Lovász, László"]
+  date: 1975
+  page-range: 383-390
+  serial-number:
+    doi: 10.1016/0012-365X(75)90058-8
+  parent:
+    type: periodical
+    title: Discrete Mathematics
+    volume: 13
+    issue: 4
+
+gao2023cite:
+  type: article
+  title: Enabling Large Language Models to Generate Text with Citations
+  author: ["Gao, Tianyu", "Yen, Howard", "Yu, Jiatong", "Chen, Danqi"]
+  date: 2023
+  page-range: 6465-6488
+  parent:
+    type: periodical
+    title: Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)

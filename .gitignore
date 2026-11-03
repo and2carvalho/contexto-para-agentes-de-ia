@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+exemplar-*.pdf
+*.bak*
+.DS_Store
+ferramentas/zenodo-deposito.json
+ferramentas/zenodo-deposito-sandbox.json
+ferramentas/publicar_zenodo.py
+
+# Zenodo publish tooling stays only on the author host
+ferramentas/zenodo-metadados.json
+ferramentas/zenodo-deposito.json
+ferramentas/zenodo-deposito-sandbox.json
+ferramentas/publicar_zenodo.py
